@@ -6,3 +6,50 @@ h1 {
 body {
     background-color: rgb(255, 238, 219);
 }
+
+#bar_color {
+    /*title bar color and reach*/
+    background-color: #ff6700;
+    height:10px;
+    width: 200%;
+    margin-left: -50%;
+}
+
+#banner_title {
+    /*page title in the banner*/
+    text-align: center;
+}
+
+.dot, #quote_frame{
+    /*frame for quote picture*/
+  aspect-ratio: 1/1;
+  width: 10%;
+  background-color: #63adf2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#quote_phrase { 
+    /*the career uote of people in the page's field*/
+    color: #2a324b;
+    font-size: 400%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#quote_originator {
+    /*the originator of the career quote*/
+    color: black;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#quote_picture {
+    
+}
+
+#quote_image {
+
+}
