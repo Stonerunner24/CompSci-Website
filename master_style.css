@@ -1,8 +1,14 @@
 h1 {
     color: white;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     background-color: rgb(255, 238, 219);
+}
+p.center{
+    text-align: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
