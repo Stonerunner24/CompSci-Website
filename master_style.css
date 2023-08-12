@@ -1,23 +1,49 @@
-h1 {
+#banner_title, h1 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
 }
 
 body {
     background-color: rgb(255, 238, 219);
+    margin: 0;
+    padding: 0;
 }
 
+
+#banner_box {
+    position: relative;
+    text-align: center;
+  }
+
 #bar_color {
-    /*title bar color and reach*/
-    background-color: #ff6700;
-    height:10px;
-    width: 200%;
-    margin-left: -50%;
-}
+      /*title bar color and reach*/
+      margin-top: 0;
+      background-color: #ff6700;
+      height:10px;
+      width: 149.9%;
+      margin-left: -50%;
+  }
 
 #banner_title {
     /*page title in the banner*/
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner {
+    /*image behind the title in the banner*/
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img{
+    /*image behind the title in the banner*/
+    width: 100%;
+    display: block;
 }
 
 .dot, #quote_frame{
