@@ -42,6 +42,7 @@ body {
 
 .banner img{
     /*image behind the title in the banner*/
+    /*image should be 1500 x 90 pixels for the banner*/
     width: 100%;
     display: block;
 }
