@@ -143,3 +143,11 @@ ul {
     color: white;
     background-color: #ff6700;
   }
+
+  #table_list, table {
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2a324b;
+    font-size: larger;
+    padding-top: 2%;
+  }
