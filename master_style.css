@@ -167,10 +167,18 @@ ul {
 
 .trio_box {
     float: left;
-    width: 33.33%
+    width: 31%;
+    margin: 1%;
 }
 
 .padded_text_box {
-    padding: 5rem;
+    padding: 10%;
     align-items: center;
+}
+
+.blue_box {
+    background-color: #2a324b;
+    color: white;
+    border-bottom: #ff6700;
+    border-width: 5rem
 }
