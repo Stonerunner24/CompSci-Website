@@ -4,10 +4,21 @@
     font-size: 200%;
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
 body {
     background-color: rgb(255, 238, 219);
     margin: 0;
     padding: 0;
+}
+
+p.centered {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -146,3 +157,20 @@ ul {
     color: white;
     background-color: #ff6700;
   }
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.trio_box {
+    float: left;
+    width: 33.33%
+}
+
+.padded_text_box {
+    padding: 5rem;
+    align-items: center;
+}
