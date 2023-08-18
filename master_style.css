@@ -4,10 +4,21 @@
     font-size: 200%;
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
 body {
     background-color: rgb(255, 238, 219);
     margin: 0;
     padding: 0;
+}
+
+p.centered {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -109,6 +120,9 @@ body {
 .career_para {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .navbar {
@@ -143,3 +157,51 @@ ul {
     color: white;
     background-color: #ff6700;
   }
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.trio_box {
+    float: left;
+    width: 31%;
+    margin: 1%;
+}
+
+.padded_text_box {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.blue_box {
+    background-color: #2a324b;
+    color: white;
+    border-bottom: #ff6700;
+    border-width: 5rem
+}
+
+.x_box {
+    margin: 1%;
+    float: left;
+    width: 48%;
+    align-items: center;
+    background-color: #2a324b;
+    color: white;
+}
+
+#back_arrow {
+    float:left; 
+    position:absolute; 
+    left: 3rem; 
+    top: 4rem;
+    height:50%; 
+    width:auto; 
+    color:white"
+}
