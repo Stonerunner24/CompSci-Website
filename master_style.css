@@ -157,3 +157,41 @@ ul {
     color: white;
     background-color: #ff6700;
   }
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.trio_box {
+    float: left;
+    width: 31%;
+    margin: 1%;
+}
+
+.padded_text_box {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.blue_box {
+    background-color: #2a324b;
+    color: white;
+    border-bottom: #ff6700;
+    border-width: 5rem
+}
+
+.x_box {
+    margin: 1%;
+    float: left;
+    width: 48%;
+    align-items: center;
+    background-color: #2a324b;
+    color: white;
+}
