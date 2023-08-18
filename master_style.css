@@ -102,13 +102,16 @@ p.centered {
 }
 
 .square {
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     background-color: #63adf2;
     border-radius: 5%;
     border: #2a324b;
     border-style: solid;
     border-width: .5rem;
+    padding-bottom: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .career_title {
