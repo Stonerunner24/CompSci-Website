@@ -195,3 +195,13 @@ ul {
     background-color: #2a324b;
     color: white;
 }
+
+#back_arrow {
+    float:left; 
+    position:absolute; 
+    left: 3rem; 
+    top: 4rem;
+    height:50%; 
+    width:auto; 
+    color:white"
+}
