@@ -235,3 +235,7 @@ ul {
     margin-right: 20%;
     text-align: left;
 }
+
+h1, centerImage{
+    font-size: 6rem;
+}
