@@ -123,6 +123,7 @@ p.centered {
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+    text-decoration: none;
 }
 
 .navbar {
@@ -181,4 +182,22 @@ ul {
     color: white;
     border-bottom: #ff6700;
     border-width: 5rem
+}
+
+#learn_more_square, .career_info_square {
+    width: 35rem;
+    border-radius: 10%;
+}
+#learn_more_square, .career_info_square, p1 {
+    color:white;
+}
+
+#learn_more_para, #career_info {
+    background-color: #2a324b;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 2%;
 }
