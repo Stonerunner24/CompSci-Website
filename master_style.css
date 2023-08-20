@@ -261,3 +261,8 @@ ul {
 h1, centerImage{
     font-size: 6rem;
 }
+
+#why_box, .square {
+    border-color: #63adf2;
+    box-shadow: 10px 10px#2a324b;
+}
