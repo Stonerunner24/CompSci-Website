@@ -112,6 +112,7 @@ p.centered {
     padding-bottom: 5%;
     margin-left: 1rem;
     margin-right: 1rem;
+    box-shadow: 10px 10px rgb(219, 188, 153);
 }
 a.square{
     height: 5rem;
