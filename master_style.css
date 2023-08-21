@@ -74,6 +74,10 @@ p.centered {
     font-weight: bold;
 }
 
+#banner_title {
+    font-size: 150%;
+}
+
 #quote_originator {
     /*the originator of the career quote*/
     color: black;
